@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item
+        android:id="@+id/qiuz"
+        android:icon="@drawable/ic_baseline_check_box_24"
+        app:showAsAction="always"
+        android:title="Quiz"/>
+    <item
+        android:id="@+id/secondactivity"
+        app:showAsAction="never"
+        android:title="Second Activity"/>
+    <item
+        android:id="@+id/fragment"
+        app:showAsAction="never"
+        android:title="Fragment"/>
+    <item
+        android:id="@+id/emergency"
+        android:icon="@drawable/ic_baseline_call_24"
+        app:showAsAction="always"
+        android:title="Call Police"/>
+
+</menu>
